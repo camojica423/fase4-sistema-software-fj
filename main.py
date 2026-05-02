@@ -5,8 +5,8 @@ class Cliente:
     if "@" not in correo :
       raise ValueError("correo invalido")
 
-    self.nombre= nombre
-    self.documento= documento
+    self.nombre = nombre
+    self.documento = documento
     self.correo = correo
 
 # prueba
