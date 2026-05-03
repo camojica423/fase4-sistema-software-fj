@@ -1,3 +1,7 @@
+def guardar_log(mensaje):
+    with open("logs.txt", "a") as archivo:
+        archivo.write(mensaje + "\n")
+        
 from cliente import Cliente
 from servicios import ServicioSala, ServicioEquipo, ServicioAsesoria
 from reserva import Reserva
