@@ -4,7 +4,7 @@ class Cliente:
             raise ValueError("el nombre no puede estar vacio")
         if "@" not in correo:
             raise ValueError("correo invalido")
-
+            
         self.nombre = nombre
         self.documento = documento
         self.correo = correo
