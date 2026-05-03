@@ -9,7 +9,7 @@ class ServicioSala(Servicio):
     def __init__(self, horas):
         super().__init__("Sala")
         self.horas = horas
-
+      
   def calcular_precio(self):
     return self.horas * 50
 
