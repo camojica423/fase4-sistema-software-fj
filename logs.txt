@@ -1,1 +1,6 @@
 
+el nombre no puede estar vacio
+correo invalido
+La duracion debe ser mayor a cero
+Los dias deben ser mayores a cero
+Las sesiones deben ser mayores a cero

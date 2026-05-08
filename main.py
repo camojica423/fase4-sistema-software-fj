@@ -5,7 +5,7 @@ def guardar_log(mensaje):
     archivo.close()
 
 
-from cliente import Cliente
+from Cliente import Cliente
 from servicios import ServicioSala, ServicioEquipo, ServicioAsesoria
 from reserva import Reserva
 
