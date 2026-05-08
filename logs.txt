@@ -1,4 +1,3 @@
-
 el nombre no puede estar vacio
 correo invalido
 La duracion debe ser mayor a cero

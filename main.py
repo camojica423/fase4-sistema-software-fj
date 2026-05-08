@@ -9,7 +9,7 @@ from Cliente import Cliente
 from servicios import ServicioSala, ServicioEquipo, ServicioAsesoria
 from reserva import Reserva
 
-print("---- PRUEBAS CORRECTAS ----")
+print("----- PRUEBAS CORRECTAS -----")
 
 try:
     cliente1 = Cliente("Carlos", "123", "carlos@gmail.com")
